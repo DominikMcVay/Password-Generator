@@ -54,8 +54,7 @@ function checkValidity() {
 };
 
 function askForSpecialCharacters() {
-  specialCharacters = prompt("Should special characters be included?");
-  specialCharacters.toLowerCase();
+  specialCharacters = prompt("Should special characters be included?").toLowerCase();
   if (specialCharacters == "y" || specialCharacters == "yes") {
     specialCharacters = true;
     console.log(specialCharacters);
@@ -71,8 +70,7 @@ function askForSpecialCharacters() {
 };
 
 function askForNumericCharacters() {
-  numericCharacters = prompt("Should numeric characters be included?");
-  numericCharacters.toLowerCase();
+  numericCharacters = prompt("Should numeric characters be included?").toLowerCase();
   if (numericCharacters == "y" || numericCharacters == "yes") {
     numericCharacters = true;
     console.log(numericCharacters);
@@ -88,8 +86,7 @@ function askForNumericCharacters() {
 };
 
 function askForLowerCase() {
-  lowerCase = prompt("Should lowercase characters be included?");
-  lowerCase.toLowerCase();
+  lowerCase = prompt("Should lowercase characters be included?").toLowerCase();
     if (lowerCase == "y" || lowerCase == "yes") {
       lowerCase = true;
       console.log(lowerCase);
@@ -105,8 +102,7 @@ function askForLowerCase() {
 };
 
 function askForUpperCase() {
-  upperCase = prompt("Should uppercase characters be included?");
-  upperCase.toLowerCase();
+  upperCase = prompt("Should uppercase characters be included?").toLowerCase();
     if (upperCase == "y" || upperCase == "yes") {
       upperCase = true;
       console.log(upperCase);
